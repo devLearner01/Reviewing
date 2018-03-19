@@ -6,18 +6,23 @@ public class ReviewingMain {
 
         System.out.println("Build OK");
 
-        Switching.switching();
+//        Switching.switching();
+//
+//        Constructing.constructingAndChangingBankAccount();
+//
+//        Inheriting.inheritingAndDrivingMyCar();
+//
+//        Composing.composing();
+//
+//        Encapsulating.encapsulating();
+//
+//        Polymorphing.polymorphing();
+//
+//        OODeving.OODeving();
+//
+//        Arraying.arraying();
 
-        Constructing.constructingAndChangingBankAccount();
+        ArrayListing.arrayListing();
 
-        Inheriting.inheritingAndDrivingMyCar();
-
-        Composing.composing();
-
-        Encapsulating.encapsulating();
-
-        Polymorphing.polymorphing();
-
-        OODeving.OODeving();
     }
 }
