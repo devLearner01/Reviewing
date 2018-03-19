@@ -11,5 +11,7 @@ public class ReviewingMain {
         Constructing.constructingAndChangingBankAccount();
 
         Inheriting.inheritingAndDrivingMyCar();
+
+        Composing.composing();
     }
 }
