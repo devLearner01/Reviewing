@@ -39,7 +39,7 @@ public class BankAccount {
 	 */
 	public void withdrawFunds(double amount){
 
-		if(amount < this.balance || amount == this.balance){
+		if(amount <= this.balance){
 			this.balance -= amount;
 			System.out.println("new balance: " + this.balance);
 		}
