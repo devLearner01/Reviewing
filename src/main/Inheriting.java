@@ -2,14 +2,14 @@ package main;
 
 public class Inheriting {
 
-	MyCar myCar = new MyCar(2);
+	MyCar1 myCar1 = new MyCar1(2);
 
 	public static void inheritingAndDrivingMyCar(){
 
-		MyCar myCar = new MyCar(2);
-		System.out.println(myCar.getTypeOfVehicle());
-		System.out.println(myCar.getNumberOfWings());
-		System.out.println(myCar.getSpeed());
+		MyCar1 myCar1 = new MyCar1(2);
+		System.out.println( myCar1.getTypeOfVehicle());
+		System.out.println( myCar1.getNumberOfWings());
+		System.out.println( myCar1.getSpeed());
 
 	}
 }

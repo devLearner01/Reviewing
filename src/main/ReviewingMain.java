@@ -13,5 +13,9 @@ public class ReviewingMain {
         Inheriting.inheritingAndDrivingMyCar();
 
         Composing.composing();
+
+        Encapsulating.encapsulating();
+
+        Polymorphing.polymorphing();
     }
 }
