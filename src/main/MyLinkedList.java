@@ -1,6 +1,10 @@
 package main;
 
-public class MyLinkedList {
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class MyLinkedList{
 
 	private ListItem current;
 	private ListItem first;
@@ -69,5 +73,44 @@ public class MyLinkedList {
 			System.out.print( this.current.value + ", " );
 			this.current = this.current.next;
 		}
+	}
+
+	public boolean exists( String value ) {
+
+		List<String> array = this.prepareForBinarySearch();
+		int valueFound  =  Collections.binarySearch( array, value ) ;
+		if(valueFound >= 0)
+			return true;
+		else
+			return false;
+	}
+
+
+	private int size(){
+		this.current = this.first;
+
+		if(this.first == null)
+			return 0;
+		int count = 1;
+		while(this.current.next != null){
+			count++;
+			this.current = this.current.next();
+		}
+		return count;
+	}
+
+
+	private List<String> prepareForBinarySearch(){
+
+		String[] array = new String[this.size()];
+		this.current = this.first;
+		if(array.length == 0)
+			return null;
+		for(int i = 0; this.current.next != null; i++ ){
+			array[i] = (String)this.current.getValue();
+			this.current = this.current.next();
+		}
+
+		return Arrays.asList( array );
 	}
 }

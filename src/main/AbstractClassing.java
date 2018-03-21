@@ -11,6 +11,10 @@ public class AbstractClassing {
 			myLinkedList.addNode( new MyNode( data[i] ));
 		}
 		myLinkedList.print();
+		boolean foundItem = myLinkedList.exists("3");
+		System.out.println("\nfound: " + foundItem);
+		foundItem = myLinkedList.exists("11");
+		System.out.println("\nfound: " + foundItem);
 
 	}
 
