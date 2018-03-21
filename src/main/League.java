@@ -1,6 +1,6 @@
 package main;
 
-public class League {
+public class League<T extends Team> {
 
 	private LeagueTable table;
 
