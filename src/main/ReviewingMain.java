@@ -29,9 +29,10 @@ public class ReviewingMain {
 //        Interfacing.interfacing();
 //
 //        InnerClassing.songManagerWithInnerClass();
+//
+//        AbstractClassing.abstractClassing();
 
-        AbstractClassing.abstractClassing();
-
+        Genericing.genericing();
 
     }
 }
