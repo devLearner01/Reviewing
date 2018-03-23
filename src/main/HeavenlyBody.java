@@ -3,7 +3,10 @@ package main;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HeavenlyBody {
+/**
+ * this isn't my code. this code is from tom buchalka. i'm using this for learning purposes.
+ */
+public final class HeavenlyBody {
 
 	private final String name;
 	private final double orbitalPeriod;
@@ -40,6 +43,11 @@ public class HeavenlyBody {
 
 		System.out.println("obj.getClass() is " + obj.getClass());
 		System.out.println("this.getClass() is " + this.getClass());
+		/**
+		 * make sure it's the same class, not a subclass of itself.
+		 * in this class it could never happen, because the class is final, so it cannot be subclassed, but if it weren't final
+		 * this check would be extremely important.
+		 */
 		if ((obj == null) || (obj.getClass() != this.getClass())) {
 			return false;
 		}

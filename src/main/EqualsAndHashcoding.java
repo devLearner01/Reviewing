@@ -7,6 +7,9 @@ import java.util.Set;
 
 public class EqualsAndHashcoding {
 
+	/**
+	 * this isn't my code. this code is from tom buchalka. i'm using this for learning purposes.
+	 */
 	private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();
 	private static Set<HeavenlyBody> planets = new HashSet<>();
 
