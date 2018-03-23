@@ -35,7 +35,10 @@ public class ReviewingMain {
 //        AbstractClassing.abstractClassing();
 //
 //        Genericing.genericing();
+//
+//        Collectioning.collectioning();
 
-        Collectioning.collectioning();
+        Immutabling.immutabling();
+
     }
 }
