@@ -27,15 +27,15 @@ public class SetsAndMaps {
 		solarSystem.put(temp.getName(), temp);
 		planets.add(temp);
 
-		HeavenlyBody4SetsAndMaps tempMoon = new HeavenlyBody4SetsAndMaps("Moon", 27, BodyType.MOON);
-		solarSystem.put(tempMoon.getName(), tempMoon);
-		temp.addSatellite(tempMoon);
+		Planet tempPlanet = new Planet("BeautifulPlanet", 27, BodyType.PLANET);
+		solarSystem.put(tempPlanet.getName(), tempPlanet);
+		tempPlanet.addSatellite(tempPlanet);
 
 		temp = new HeavenlyBody4SetsAndMaps("Mars", 687, BodyType.PLANET);
 		solarSystem.put(temp.getName(), temp);
 		planets.add(temp);
 
-		tempMoon = new HeavenlyBody4SetsAndMaps("Deimos", 1.3, BodyType.MOON);
+		HeavenlyBody4SetsAndMaps tempMoon = new HeavenlyBody4SetsAndMaps("Deimos", 1.3, BodyType.MOON);
 		solarSystem.put(tempMoon.getName(), tempMoon);
 		temp.addSatellite(tempMoon); // temp is still Mars
 
