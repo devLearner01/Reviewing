@@ -37,8 +37,10 @@ public class ReviewingMain {
 //        Genericing.genericing();
 //
 //        Collectioning.collectioning();
+//
+//        Immutabling.immutabling();
 
-        Immutabling.immutabling();
+        EqualsAndHashcoding.equalsAndHashcoding();
 
     }
 }
