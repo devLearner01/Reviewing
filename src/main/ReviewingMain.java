@@ -1,5 +1,7 @@
 package main;
 
+import packaging.Packaging;
+
 public class ReviewingMain {
 
     public static void main(String[] args) {
@@ -31,8 +33,9 @@ public class ReviewingMain {
 //        InnerClassing.songManagerWithInnerClass();
 //
 //        AbstractClassing.abstractClassing();
+//
+//        Genericing.genericing();
 
-        Genericing.genericing();
-
+        Collectioning.collectioning();
     }
 }
