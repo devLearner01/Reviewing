@@ -41,7 +41,10 @@ public class ReviewingMain {
 //        Immutabling.immutabling();
 //
 //        EqualsAndHashcoding.equalsAndHashcoding();
+//
+//        SetsAndMaps.setsAndMaps();
 
-        SetsAndMaps.setsAndMaps();
+        Collectioning2.collectioning2();
+
     }
 }
