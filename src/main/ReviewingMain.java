@@ -43,8 +43,10 @@ public class ReviewingMain {
 //        EqualsAndHashcoding.equalsAndHashcoding();
 //
 //        SetsAndMaps.setsAndMaps();
+//
+//        Collectioning2.collectioning2();
 
-        Collectioning2.collectioning2();
+        TryWithResources.tryWithResources();
 
     }
 }
